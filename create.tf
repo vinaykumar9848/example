@@ -1,8 +1,8 @@
 this is the temporary file
 
 #hello
-# daily update start
-/**
+# daily updates start
+
 
 hello
 
