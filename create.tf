@@ -6,17 +6,12 @@ this is the temporary file
 */
 #hello
 # daily updates start
-/**/
-/**/
-/**/
-/**/
-/**/
-/*hello*/
-/**/
-/**/
-/**/
-/**/
-/**/
+
+
+hello
+
+
+
 # daily updates end
 /*
 
