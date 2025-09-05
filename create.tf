@@ -16,7 +16,7 @@ terraform {
     }
   }
 }
-/*
+
 provider "azurerm" {
   #Username = "cloud_user_p_bfef1037@realhandsonlabs.com"
   #Password = "7+kn-t2@"
@@ -26,7 +26,7 @@ provider "azurerm" {
   tenant id = "84f1e4ea-8554-43e1-8709-f0b8589ea118"
    features {}
 }
-*/
+
 provider "azurerm" {
   features {}
   resource_provider_registrations = "none"
