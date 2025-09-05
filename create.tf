@@ -29,7 +29,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "1-0dbb6af9-playground-sandbox" {
-  name     = "1_0dbb6af9_playground_sandbox"
+  name     = "1-0dbb6af9-playground-sandbox"
   location = "westus"
 }
 /**/
