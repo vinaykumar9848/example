@@ -18,11 +18,12 @@ terraform {
 }
 
 provider "azurerm" {
-  Username = "cloud_user_p_bfef1037@realhandsonlabs.com"
-  Password = "7+kn-t2@"
+  #Username = "cloud_user_p_bfef1037@realhandsonlabs.com"
+  #Password = "7+kn-t2@"
   Client id = "222e7fa4-e7c4-4e46-979c-6e81577e80da"
   secret id = "9en8Q~WQfoSVjkV1welQfY8iPF5XoGKQqlGTkbEI"
   subscription id = "80ea84e8-afce-4851-928a-9e2219724c69"
+  tenant id = "84f1e4ea-8554-43e1-8709-f0b8589ea118"
    features {}
 }
 
