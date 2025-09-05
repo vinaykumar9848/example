@@ -28,8 +28,8 @@ provider "azurerm" {
   tenant_id       = "84f1e4ea-8554-43e1-8709-f0b8589ea118"
 }
 
-resource "azurerm_resource_group" "v_p_16da76f6_service_principal" {
-  name     = "v_p_16da76f6_service_principal"
+resource "azurerm_resource_group" "1-0dbb6af9-playground-sandbox" {
+  name     = "1_0dbb6af9_playground_sandbox"
   location = "westus"
 }
 /**/
