@@ -29,6 +29,10 @@ provider "azurerm" {
 }
 
 terraform import azurerm_resource_group.1-0dbb6af9-playground-sandbox /subscriptions/80ea84e8-afce-4851-928a-9e2219724c69/resourceGroups/1-0dbb6af9-playground-sandbox
+resource "azurerm_resource_group" "example" {
+  name     = "1-0dbb6af9-playground-sandbox"
+  location = "westus"
+}
 
 /**/
 resource "azurerm_virtual_network" "example" {
