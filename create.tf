@@ -32,7 +32,7 @@ resource "azurerm_resource_group" "1-0dbb6af9-playground-sandbox" {
   name     = "1-0dbb6af9-playground-sandbox"
   location = "westus"
 }
-
+/**/
 resource "azurerm_virtual_network" "example" {
   name                = "examplevnet"
   address_space       = ["10.0.0.0/16"]
