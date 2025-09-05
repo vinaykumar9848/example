@@ -5,7 +5,7 @@
 
 */
 #hello
-/**/
+
 # daily updates start
 
 terraform {
