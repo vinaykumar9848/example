@@ -28,7 +28,7 @@ provider "azurerm" {
   tenant_id       = "84f1e4ea-8554-43e1-8709-f0b8589ea118"
 }
 
-terraform import azurerm_resource_group.example /subscriptions/80ea84e8-afce-4851-928a-9e2219724c69/resourceGroups/1-0dbb6af9-playground-sandbox
+terraform import azurerm_resource_group.1-0dbb6af9-playground-sandbox /subscriptions/80ea84e8-afce-4851-928a-9e2219724c69/resourceGroups/1-0dbb6af9-playground-sandbox
 
 /**/
 resource "azurerm_virtual_network" "example" {
