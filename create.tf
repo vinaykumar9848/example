@@ -29,7 +29,7 @@ provider "azurerm" {
 */
 provider "azurerm" {
   features {}
-
+  resource_provider_registration = "none"
   client_id       = "222e7fa4-e7c4-4e46-979c-6e81577e80da"
   client_secret   = "9en8Q~WQfoSVjkV1welQfY8iPF5XoGKQqlGTkbEI"
   subscription_id = "80ea84e8-afce-4851-928a-9e2219724c69"
