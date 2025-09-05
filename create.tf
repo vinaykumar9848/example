@@ -27,6 +27,7 @@ provider "azurerm" {
   subscription_id = "80ea84e8-afce-4851-928a-9e2219724c69"
   tenant_id       = "84f1e4ea-8554-43e1-8709-f0b8589ea118"
 }
+/*
 import {
   to = azurerm_resource_group.1-0dbb6af9-playground-sandbox
   id = "1-0dbb6af9-playground-sandbox"
@@ -36,7 +37,8 @@ resource "azurerm_resource_group" "1-0dbb6af9-playground-sandbox" {
   name     = "1-0dbb6af9-playground-sandbox"
   location = "westus"
 }
-
+*/
+terraform import azurerm_resource_group.example resourceGroups/1-0dbb6af9-playground-sandbox
 /**/
 resource "azurerm_virtual_network" "example" {
   name                = "examplevnet"
